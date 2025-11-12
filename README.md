@@ -23,8 +23,11 @@ Install MPI for python:<br>
 pip install mpi4py
 ```
 
+Run install_dataset.py to install MNIST dataset before running main.py<br>
+
 To run parallel program, use this command:<br>
 
 ```bash
 mpiexec -n num_processors python main.py
 ```
+
