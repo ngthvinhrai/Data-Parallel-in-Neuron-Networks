@@ -17,10 +17,10 @@ Then clone repository:<br>
 https://github.com/ngthvinhrai/Data-Parallel-in-Neuron-Networks.git
 ```
 
-Install MPI for python:<br>
+Install dependencies:<br>
 
 ```bash
-pip install mpi4py
+pip install -r requirements.txt
 ```
 
 Run install_dataset.py to install MNIST dataset before running main.py<br>
